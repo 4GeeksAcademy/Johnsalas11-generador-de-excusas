@@ -2,8 +2,14 @@
 import "./style.css";
 
 window.onload = function() {
-  let who = ["Shrek", "Morty", "Peter griffin", "Marge", "Roger"];
-  let action = ["se tragó", "me robó", "Borró", "se hizo pis en", "pisó"];
+  let who = [
+    "Shrek",
+    "Morty",
+    "Peter griffin",
+    "Marge Simpson",
+    "Roger el alien"
+  ];
+  let action = ["se tragó", "me robó", "mancilló", "se hizo pis en", "pisó"];
   let what = ["mis proyectos", "mi peluca", "mi motivación", "mi dignidad"];
 
   let randomWho = Math.floor(Math.random() * who.length);
@@ -11,7 +17,7 @@ window.onload = function() {
   let randomWhat = Math.floor(Math.random() * what.length);
 
   document.querySelector("#excuse").innerHTML =
-    who[randomWho] + " " + action[randomAction] + " " + what[randomWhat];
+    who[randomWho] + " " + action[randomAction] + " " + what[randomWhat] + "! ";
 };
 
 //git add .
