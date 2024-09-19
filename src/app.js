@@ -1,5 +1,6 @@
 /* eslint-disable */
 import "./style.css";
+
 window.onload = function() {
   let who = ["Shrek", "Morty", "Peter griffin", "Marge", "Roger"];
   let action = ["se tragó", "me robó", "Borró", "se hizo pis en", "pisó"];
